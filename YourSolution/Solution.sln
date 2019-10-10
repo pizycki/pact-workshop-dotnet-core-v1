@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consumer", "Consumer\src\consumer.csproj", "{6D06FF75-0E51-46A8-8A0D-5C33B17452B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "provider", "Provider\src\provider.csproj", "{8E97CC78-EE98-4D90-8963-A8B495998CA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{40AA97AB-88DF-4469-B754-F8D4BCC8C7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "Consumer\tests\tests.csproj", "{01C89531-A678-4435-8B96-17F4B2A49B7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D06FF75-0E51-46A8-8A0D-5C33B17452B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D06FF75-0E51-46A8-8A0D-5C33B17452B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D06FF75-0E51-46A8-8A0D-5C33B17452B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D06FF75-0E51-46A8-8A0D-5C33B17452B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E97CC78-EE98-4D90-8963-A8B495998CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E97CC78-EE98-4D90-8963-A8B495998CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E97CC78-EE98-4D90-8963-A8B495998CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E97CC78-EE98-4D90-8963-A8B495998CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C89531-A678-4435-8B96-17F4B2A49B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C89531-A678-4435-8B96-17F4B2A49B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C89531-A678-4435-8B96-17F4B2A49B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C89531-A678-4435-8B96-17F4B2A49B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01C89531-A678-4435-8B96-17F4B2A49B7F} = {40AA97AB-88DF-4469-B754-F8D4BCC8C7D0}
+		{6D06FF75-0E51-46A8-8A0D-5C33B17452B3} = {40AA97AB-88DF-4469-B754-F8D4BCC8C7D0}
+	EndGlobalSection
+EndGlobal
